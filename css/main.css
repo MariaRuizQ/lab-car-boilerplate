@@ -1,1 +1,23 @@
 /* Los estilos de tu proyecto */
+.nav-color{
+	background-color: white;
+	border: none;
+}
+.button-color{
+	border: 1px solid gray;
+
+}
+
+.line-color{
+	border: 1px solid gray;
+}
+.position-nav-movil{
+	padding-right: 90%;
+}
+
+@media (min-width: 768px){
+	.nav-position{
+		position: absolute;
+		padding-left: 56%;
+	}
+}
