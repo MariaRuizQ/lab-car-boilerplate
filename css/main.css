@@ -1,4 +1,11 @@
 /* Los estilos de tu proyecto */
+.img-user {
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	margin-left: 35%;
+}
+
 .nav-color{
 	background-color: white;
 	border: none;
@@ -14,10 +21,53 @@
 .position-nav-movil{
 	padding-right: 90%;
 }
-
+.lista{
+	text-decoration: none;
+	color: gray;
+}
+.color-modal{
+	background-color: #009999;
+}
+.loging-color{
+	background-color: #e0e0d1;
+	width: 60%;
+	padding: 5%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+.btn-style{
+	margin-top: 5%;
+	margin-left: 35%;
+	background-color: #ff9900;
+	color: white;
+}
+.form-sesión{
+	margin: 2%;
+	margin-left: 10%;
+}
+.loging-color p{
+	text-align: center;
+	margin-top: 5%;
+}
+.nav-logo{
+	margin-top: -20px;
+	margin-left: 5%;
+}
 @media (min-width: 768px){
 	.nav-position{
-		position: absolute;
-		padding-left: 56%;
+		width: 100%;
+		position: relative;
+		padding-left: 75%;
+		margin: 3%;
+	}
+	.nav-position ul div li{
+		float: left;
+	}
+	.nav-position ul div li a{
+		padding: 10px;
+		list-style: none;
+		text-decoration: none;
+		color: gray;
+
 	}
 }
