@@ -1,4 +1,10 @@
 /*Estilos fondo-nav-movil*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
 .nav-color{
 	width: 100%;
 	background-color: white;
@@ -167,6 +173,11 @@
 	padding: 10px;
 	font-size: 20px;
 }
+.form-regístrate{
+	width:96%;
+	margin: 2%;
+	padding: 2%;
+}
 /*Estilos fondo-section-4-movil*/
 .fondo-section-4{
 	width: 100%;
@@ -210,20 +221,23 @@
 	padding: 5%;
 	color: white;
 }
-.iconos-footer{
-
-}
-.lista-footer{
-	text-decoration: none;
-}
-.lista-footer ul{
-	text-decoration: none;
+.iconos-footer i{
+	margin: 5px;
 }
 .lista-footer ul li{
+	list-style: none;
+	padding: 15px;
+}
+.lista-footer ul li a{
 	text-decoration: none;
+	color: white;
+	font-size: 20px;
 }
 .lista-web{
 	display: none;
+}
+.logos-footer div img{
+	margin-top: 20px;
 }
 @media (min-width: 768px){
 	/*Estilos fondo-nav-web*/
@@ -319,7 +333,13 @@
 		float: right;
 	}
 	/*Estilos footer-web*/
+	.iconos-footer{
+		padding-top: 30%;
+	}
 	.lista-web{
 		display: inline-block;
+	}
+	.logos-footer{
+		padding-top: 20%;
 	}
 }

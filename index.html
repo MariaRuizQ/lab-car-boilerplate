@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
     <!--Import jQuery before bootstrap.css-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
 	  <link rel="stylesheet" href="css/main.css">
@@ -44,7 +45,7 @@
 							<div class="modal-dialog" role="document">
 								<div class="color-modal modal-content">
 									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 										<img class="img-user" src="assets/images/user.png" alt="">
 									</div>
 									<div class="modal-footer">
@@ -99,7 +100,33 @@
                 <div class="fondo-ana">
                   <h3>Disfruta el viaje <br>Eres dueño de tu tiempo</h3>
                   <h4>Viaja con <img src="assets/images/logoBlanco.png" alt=""></h4>
-                  <button type="button" class="btn btn-default">REGÍSTRATE</button>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalRegístrate">REGÍSTRATE</button>
+                  <!--Modal conviértete en conductor-->
+                  <div class="modal fade" id="myModalRegístrate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="color-modal-conductor modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="selct-opcion-conductor">
+                          <button type="submit" class="btn btn-default">Ya tienes una cuenta?</button>
+                          <h4>O CREAR UNA CUENTA</h4>
+                          <form class="form-inline">
+                            <div class="form-group">
+                              <input class="form-regístrate" type="email" class="form-control" id="exampleInputEmail3" placeholder="Nombre">
+                              <input class="form-regístrate" type="password" class="form-control" id="exampleInputPassword3" placeholder="Apellido">
+                              <input class="form-regístrate" type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo Electrónico: ejemplo@correo.mx">
+                              <input class="form-regístrate" type="password" class="form-control" id="exampleInputPassword1" placeholder="Teléfono">
+                              <input class="form-regístrate" type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                              <input class="form-regístrate" type="password" class="form-control" id="exampleInputPassword1" placeholder="Ciudad">
+                              <input class="form-regístrate" type="password" class="form-control" id="exampleInputPassword1" placeholder="(Opcional) Código de invitación">
+                            </div>
+                          </form>
+                          <button type="submit" class="btn btn-default">ENVIAR</button>
+                      </div>
+                      </div>
+                  </div>
+                  </div>
                   <hr>
                   <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalConductor">Conviértete en un conductor</button>
                 </div>
@@ -179,7 +206,7 @@
                 <select class="form-control">
                   <option value="value1" selected>2017</option>
                   <option value="value2">2016</option>
-                  <option value="value3" selected>2015</option>
+                  <option value="value3">2015</option>
                   <option value="value4">2014</option>
                 </select>
                 <h5>Número de la matrícula</h5>
@@ -242,17 +269,19 @@
                 <li><a href="#">Seguridad</a></li>
               </ul>
             </div>
-            <div class="col-md-3 lista-web">
-              <li><a href="#">Oportunidades</a></li>
-              <li><a href="#">Nuestra historia</a></li>
-              <li><a href="#">API de LabCar</a></li>
-              <li><a href="#">Eventos</a></li>
-              <li><a href="#">Desarrolladores</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Laboratoria</a></li>
-              <li><a href="#">Coders</a></li>
+            <div class="lista-footer col-md-3 lista-web">
+              <ul>
+                <li><a href="#">Oportunidades</a></li>
+                <li><a href="#">Nuestra historia</a></li>
+                <li><a href="#">API de LabCar</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Desarrolladores</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Laboratoria</a></li>
+                <li><a href="#">Coders</a></li>
+              </ul>
             </div>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-3 col-xs-6 logos-footer">
               <div class="">
                 <img src="assets/images/appstore.png" alt="">
               </div>
