@@ -146,6 +146,27 @@
 	padding: 15px;
 	border-radius: 10px;
 }
+/*Estilos modal-conviértete en conductor*/
+.color-modal-conductor{
+	background-color: gray;
+}
+.selct-opcion-conductor{
+	padding: 5%;
+}
+.selct-opcion-conductor h5{
+	font-size: 20px;
+	font-weight: 700;
+}
+.selct-opcion-conductor button{
+	width: 80%;
+	margin: 10px;
+	margin-left: 30px;
+	border: none;
+	background-color: #33d6ff;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
 @media (min-width: 768px){
 	/*Estilos fondo-nav-web*/
 	.nav-position{
@@ -177,7 +198,7 @@
 		padding: 0;
 		width: 100%;
 		background-color: #ff9900;
-		height: 38vh;
+		height: 40vh;
 	}
 	.fondo-ana h3{
 		color:white;
