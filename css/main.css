@@ -120,12 +120,32 @@
 	display: inline-block;
 	width: 100%;
 	background-image: url('../assets/images/conduce.jpg');
-	height: 100vh;
+	height: 80vh;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position:auto;
+	background-size: cover;
+	background-position: center 95%;
+	justify-content: flex-end;
+	color: white;
 }
-
+.position-text-section-3{
+	padding-top: 200px;
+}
+.position-text-section-3 h3{
+	font-size: 30px;
+	font-weight: 700;
+}
+.position-text-section-3 h4{
+	font-size: 22px;
+}
+.position-text-section-3 button{
+	background-color: #ff9900;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 15px;
+	border-radius: 10px;
+}
 @media (min-width: 768px){
 	/*Estilos fondo-nav-web*/
 	.nav-position{
@@ -214,5 +234,9 @@
 	}
 	.Iphone{
 		width: 70%;
+	}
+	/*Estilos fondo-section-3-web*/
+	.position-text-section-3{
+		float: right;
 	}
 }
