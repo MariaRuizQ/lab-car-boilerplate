@@ -116,7 +116,7 @@
 	display: none;
 }
 /*Estilos fondo-section-3-movil*/
-.fondo-section-3-movil{
+.fondo-section-3{
 	display: inline-block;
 	width: 100%;
 	background-image: url('../assets/images/conduce.jpg');
@@ -166,6 +166,42 @@
 	color: white;
 	padding: 10px;
 	font-size: 20px;
+}
+/*Estilos fondo-section-4-movil*/
+.fondo-section-4{
+	width: 100%;
+	background-color: #ff9900;
+	padding: 5%;
+	color: white;
+}
+.input-section-4 img{
+	position: absolute;
+}
+.input-section-4 input{
+	background-color: #ff9900;
+	color: white;
+	margin-left: 35px;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.position-text-section-4 button{
+	justify-content: center;
+	text-align: center;
+	font-size: 15px;
+	border: none;
+	padding: 10px;
+	font-weight: 700;
+	width: 30%;
+	margin-left: 30%;
+	margin-bottom: 20px;
+}
+.position-map-section-4{
+	padding: 10px;
+	border: 2px solid white;
+}
+.position-map-section-4 iframe{
+	width: 100%;
 }
 @media (min-width: 768px){
 	/*Estilos fondo-nav-web*/
