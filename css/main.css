@@ -57,14 +57,16 @@
 	margin-left: 5%;
 }
 .fondo-section-1{
+	display: inline-block;
+	width: 100%;
 	background-image: url('../assets/images/taxi.jpg');
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	justify-content: center;
+
 }
 main{
-	padding-top: 10%;
+
 }
 .part-1-movil{
 	margin: 0;
@@ -88,13 +90,35 @@ main{
 	height: 3vh;
 }
 .fondo-anaranjado button{
-
 	margin-left: 5%;
 	color: black;
 	font-weight: 500;
 	font-size: 150%;
 	border-radius: 10px;
 	padding: 2%;
+}
+.part-1-web{
+	display: none;
+}
+/*Estilos fondo-section-2*/
+.fondo-section-2-movil{
+	background-color: #ff9900;
+	padding-top: 7%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+}
+.imagen-Iphone-movil{
+	justify-content: center;
+	text-align: center;
+	border: 2px solid white;
+	padding: 10%;
+}
+.imagen-Iphone-movil h3{
+	font-size: 220%;
+}
+.fondo-section-2-web{
+	display: none;
 }
 @media (min-width: 768px){
 	.nav-position{
@@ -107,12 +131,67 @@ main{
 		float: left;
 	}
 	.nav-position ul div li a{
-		padding: 10px;
+		padding: 5px;
 		list-style: none;
 		text-decoration: none;
 		color: gray;
 	}
 	.part-1-movil{
 		display: none;
+	}
+	.part-1-web{
+		display: inline-block;
+		margin: 0;
+		padding-top: 25%;
+	}
+	.fondo-ana{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background-color: #ff9900;
+		height: 38vh;
+	}
+	.fondo-ana h3{
+		color:white;
+		font-size: 200%;
+		padding-left: 5%;
+		padding-top: 5%;
+	}
+	.fondo-ana h4{
+		color: white;
+		padding-left: 5%;
+		padding-top: 5%;
+	}
+	.fondo-ana h4 img{
+		height: 2vh;
+	}
+	.fondo-ana button{
+		margin-left: 5%;
+		color: black;
+		font-weight: 500;
+		font-size: 100%;
+		border-radius: 5px;
+		padding: 2%;
+	}
+	/*Estilos fondo-section-2-web*/
+	.fondo-section-2-movil{
+		display: none;
+	}
+	.fondo-section-2-web{
+		display: inline-block;
+	}
+	.fondo-section-2-web{
+		width: 100%;
+		background-color: #ff9900;
+		padding-top: 5%;
+		padding-right: 3%;
+		padding-bottom: 5%;
+		color: white;
+	}
+	.imagen-Iphone-web{
+		padding: 5%;
+	}
+	.border-Iphone{
+		background-color: red;
 	}
 }
