@@ -203,6 +203,28 @@
 .position-map-section-4 iframe{
 	width: 100%;
 }
+/*Estilos footer-movil*/
+.fondo-footer{
+	width: 100%;
+	background-color: #4d4d4d;
+	padding: 5%;
+	color: white;
+}
+.iconos-footer{
+
+}
+.lista-footer{
+	text-decoration: none;
+}
+.lista-footer ul{
+	text-decoration: none;
+}
+.lista-footer ul li{
+	text-decoration: none;
+}
+.lista-web{
+	display: none;
+}
 @media (min-width: 768px){
 	/*Estilos fondo-nav-web*/
 	.nav-position{
@@ -295,5 +317,9 @@
 	/*Estilos fondo-section-3-web*/
 	.position-text-section-3{
 		float: right;
+	}
+	/*Estilos footer-web*/
+	.lista-web{
+		display: inline-block;
 	}
 }
