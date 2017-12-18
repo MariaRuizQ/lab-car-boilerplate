@@ -7,8 +7,11 @@
 }
 
 .nav-color{
+	width: 100%;
 	background-color: white;
 	border: none;
+	position: fixed;
+	z-index: 100;
 }
 .button-color{
 	border: 1px solid gray;
@@ -53,6 +56,46 @@
 	margin-top: -20px;
 	margin-left: 5%;
 }
+.fondo-section-1{
+	background-image: url('../assets/images/taxi.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	justify-content: center;
+}
+main{
+	padding-top: 10%;
+}
+.part-1-movil{
+	margin: 0;
+	padding-top: 55%;
+
+}
+.fondo-anaranjado{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #ff9900;
+	height: 30vh;
+
+}
+.fondo-anaranjado h3{
+	color:white;
+	font-size: 300%;
+	padding: 5%;
+}
+.fondo-anaranjado h3 img{
+	height: 3vh;
+}
+.fondo-anaranjado button{
+
+	margin-left: 5%;
+	color: black;
+	font-weight: 500;
+	font-size: 150%;
+	border-radius: 10px;
+	padding: 2%;
+}
 @media (min-width: 768px){
 	.nav-position{
 		width: 100%;
@@ -68,6 +111,8 @@
 		list-style: none;
 		text-decoration: none;
 		color: gray;
-
+	}
+	.part-1-movil{
+		display: none;
 	}
 }
