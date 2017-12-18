@@ -1,11 +1,4 @@
-/* Los estilos de tu proyecto */
-.img-user {
-	width: 30%;
-	height: 30%;
-	border-radius: 50%;
-	margin-left: 35%;
-}
-
+/*Estilos fondo-nav-movil*/
 .nav-color{
 	width: 100%;
 	background-color: white;
@@ -15,9 +8,7 @@
 }
 .button-color{
 	border: 1px solid gray;
-
 }
-
 .line-color{
 	border: 1px solid gray;
 }
@@ -30,6 +21,12 @@
 }
 .color-modal{
 	background-color: #009999;
+}
+.img-user {
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	margin-left: 35%;
 }
 .loging-color{
 	background-color: #e0e0d1;
@@ -56,22 +53,20 @@
 	margin-top: -20px;
 	margin-left: 5%;
 }
+/*Estilos fondo-section-1-movil*/
 .fondo-section-1{
 	display: inline-block;
 	width: 100%;
 	background-image: url('../assets/images/taxi.jpg');
 	height: 100vh;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-
-}
-main{
-
+	background-size: cover;
+	background-position: center 95%;
+	justify-content: flex-end;
 }
 .part-1-movil{
 	margin: 0;
 	padding-top: 55%;
-
 }
 .fondo-anaranjado{
 	margin: 0;
@@ -100,7 +95,7 @@ main{
 .part-1-web{
 	display: none;
 }
-/*Estilos fondo-section-2*/
+/*Estilos fondo-section-2-movil*/
 .fondo-section-2-movil{
 	background-color: #ff9900;
 	padding-top: 7%;
@@ -120,7 +115,19 @@ main{
 .fondo-section-2-web{
 	display: none;
 }
+/*Estilos fondo-section-3-movil*/
+.fondo-section-3-movil{
+	display: inline-block;
+	width: 100%;
+	background-image: url('../assets/images/conduce.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position:auto;
+}
+
 @media (min-width: 768px){
+	/*Estilos fondo-nav-web*/
 	.nav-position{
 		width: 100%;
 		position: relative;
@@ -136,13 +143,14 @@ main{
 		text-decoration: none;
 		color: gray;
 	}
+	/*Estilos fondo-section-1-web*/
 	.part-1-movil{
 		display: none;
 	}
 	.part-1-web{
 		display: inline-block;
 		margin: 0;
-		padding-top: 25%;
+		padding-top: 15%;
 	}
 	.fondo-ana{
 		margin: 0;
@@ -188,10 +196,23 @@ main{
 		padding-bottom: 5%;
 		color: white;
 	}
-	.imagen-Iphone-web{
+	.Iphone-web{
 		padding: 5%;
 	}
 	.border-Iphone{
-		background-color: red;
+		margin-right: 400px;
+		border-top: 1px solid white;
+		border-right: 1px solid white;
+		border-bottom: 1px solid white;
+	}
+	.Iphone-text{
+		font-size: 16px;
+		padding: 60px;
+	}
+	.Iphone-text h3{
+		font-weight: 500;
+	}
+	.Iphone{
+		width: 70%;
 	}
 }
